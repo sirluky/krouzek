@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <title>Úkolníček</title>
   </head>
 
@@ -19,7 +19,14 @@
         <button type="submit" class="btn btn-primary mx-auto d-block m-1 " id="pridejUkol">Přidat</button>
       </div>
       <table class="table">
-        <caption>Celkem úkolů 5</caption>
+        <h2 class="pl-3">Rozdělané</h2>
+        <caption>Celkem úkolů:
+          <span id="todocounter-rozdelane"></span>
+          <br>
+          Celkem splněných:
+          <span id="todocounter-done-rozdelane"></span>
+
+        </caption>
         <thead>
           <tr>
             <th scope="col">
