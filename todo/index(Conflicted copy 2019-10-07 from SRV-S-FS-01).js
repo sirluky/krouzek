@@ -1,3 +1,7 @@
+let sekce = [];
+
+
+
 document.querySelector("#pridejUkol").onclick = () => {
   const obsahukolu = document.querySelector("#ukol").value;
   pridatUkol(obsahukolu);
